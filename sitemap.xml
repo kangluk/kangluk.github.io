@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kangluk.github.io/docs/suoritus/</loc>
-    <lastmod>2019-08-13T07:28:51+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kangluk.github.io/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
@@ -18,17 +13,8 @@
   </url>
   
   <url>
-    <loc>https://kangluk.github.io/docs/asennus/</loc>
-  </url>
-  
-  <url>
     <loc>https://kangluk.github.io/</loc>
-    <lastmod>2019-08-13T07:28:51+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kangluk.github.io/docs/suoritus/viikko1/</loc>
-    <lastmod>2019-08-13T07:28:51+03:00</lastmod>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -108,8 +94,20 @@
   </url>
   
   <url>
+    <loc>https://kangluk.github.io/docs/asennus/</loc>
+  </url>
+  
+  <url>
     <loc>https://kangluk.github.io/docs/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangluk.github.io/docs/suoritus/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kangluk.github.io/docs/suoritus/viikko1/</loc>
   </url>
   
 </urlset>
