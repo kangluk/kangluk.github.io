@@ -69,13 +69,25 @@ Todennäköisesti käytössäsi on 64-bittinen Windows-käyttöjärjestelmä, el
     </item>
     
     <item>
+      <title>Miten vaihtaa uusimpaan kurssiin?</title>
+      <link>https://kangluk.github.io/docs/tmc_paivitys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/tmc_paivitys/</guid>
+      <description>Miten vaihtaa uusimpaan kurssiin? 14.8.2019: MALLIKUVAT TULOSSA MYÖHEMMIN
+1. Sulje kaikki vanhan kurssin projektit Näin pyritään välttämään tilannetta, jossa NetBeans kaatuu/hidastuu 70:n projektin ollessa samaan aikaan auki.
+ Pienennä projektien &amp;ldquo;tiedostopuut&amp;rdquo; (Macissa kolmio-nappi (ks. kuva), Windowsissa plus-miinus -nappi)   Valitse kaikki projektit  Ctrl A -pikanäppäin tai klikkaa Shift/Vaihto-näppäin pohjassa ensimmäistä ja viimeistä projektia  Klikkaa hiiren oikealla napilla ensimmäistä projektia ja valitse Close 31 Projects  2. Siirry asetuksiin Asetukset löytyvät NetBeansin ohjelmavalikosta TMC → Settings (ks.</description>
+    </item>
+    
+    <item>
       <title>Viikko 1</title>
       <link>https://kangluk.github.io/docs/suoritus/viikko1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kangluk.github.io/docs/suoritus/viikko1/</guid>
-      <description>Viikko 1 (13.–18.8.2019) Ensimmäisen viikon teoria ja tehtävät löytyvät osoitteesta https://materiaalit.github.io/ohjelmointi-18/part1/
-Viikon 1 osaamistavoitteet Tuntee ohjelmoinnin peruskäsitteistä muuttujat, ehtolauseet, toistolauseet. Ymmärtää ohjelman suoritusjärjestyksen. Tuntee loogiset operaatiot ja ja tai. Osaa kirjoittaa ohjelmia, jotka lukevat käyttäjältä syötettä ja tekevät laskentaa syötteen perusteella.
+      <description>Viikko 1 (13.–18.8.2019) Ensimmäisen viikon teoria ja tehtävät löytyvät osoitteesta https://ohjelmointi-19.mooc.fi/osa-1
+Viikon 1 osaamistavoitteet Osaat kirjoittaa ohjelmia, jotka lukevat käyttäjältä syötettä ja tekevät laskentaa syötteen perusteella. Tunnet käsitteet muuttuja, ehtolause ja toistolause, ja osaat käyttää näitä ohjelmissasi.
+Osaamistavoitteiden lähde: https://ohjelmointi-19.mooc.fi/osaamistavoitteet (Creative Commons BY-NC-SA 4.0 -lisenssi, Helsingin yliopiston Agile Education Research -tutkimusryhmä, ks. https://ohjelmointi-19.mooc.fi/credits/)
 1. viikon diat Diat löytyvät PDF-muodossa Google Drivesta.</description>
     </item>
     

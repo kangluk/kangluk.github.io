@@ -22,5 +22,16 @@ Lataa uusin Java 8:n kehitysympäristö (Java SE Development Kit 8u221) osoittee
 Todennäköisesti käytössäsi on 64-bittinen Windows-käyttöjärjestelmä, eli lataa tiedosto jdk-8u221-windows-x64.</description>
     </item>
     
+    <item>
+      <title>Miten vaihtaa uusimpaan kurssiin?</title>
+      <link>https://kangluk.github.io/docs/tmc_paivitys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/tmc_paivitys/</guid>
+      <description>Miten vaihtaa uusimpaan kurssiin? 14.8.2019: MALLIKUVAT TULOSSA MYÖHEMMIN
+1. Sulje kaikki vanhan kurssin projektit Näin pyritään välttämään tilannetta, jossa NetBeans kaatuu/hidastuu 70:n projektin ollessa samaan aikaan auki.
+ Pienennä projektien &amp;ldquo;tiedostopuut&amp;rdquo; (Macissa kolmio-nappi (ks. kuva), Windowsissa plus-miinus -nappi)   Valitse kaikki projektit  Ctrl A -pikanäppäin tai klikkaa Shift/Vaihto-näppäin pohjassa ensimmäistä ja viimeistä projektia  Klikkaa hiiren oikealla napilla ensimmäistä projektia ja valitse Close 31 Projects  2. Siirry asetuksiin Asetukset löytyvät NetBeansin ohjelmavalikosta TMC → Settings (ks.</description>
+    </item>
+    
   </channel>
 </rss>
