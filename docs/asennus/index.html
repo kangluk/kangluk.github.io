@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/book.min.6c7317d2e8552a0ac3ea8fd4ba500c3dfb1cc9c74e7afd73eee6d729751fad30.css">
 
 
-<script defer src="/search.min.4bf0ef6478af8390ff0780bc79c68b7aa5fb56d1f696c73a494bed361064dac2.js"></script>
+<script defer src="/search.min.bff39826056f2de9351805d6de94d28222d5d1d56b7bff22e60cd4f1287cfa37.js"></script>
 
 
 
@@ -150,50 +150,155 @@ https://github.com/alex-shpak/hugo-book
 
 <h1 id="aloitus-ja-asennus">Aloitus ja asennus</h1>
 
-<h2 id="käyttöönotto">Käyttöönotto</h2>
+<p>Kurssin alkuun pitää asentaa omalle tietokoneelle kaksi ohjelmaa ja luoda yhdet käyttäjätunnukset tehtävien tekoa ja palautusta varten. Voit noudattaa asennusohjeita allaolevassa järjestyksessä:</p>
 
-<ul>
-<li>Tunnusten luominen <a href="https://tmc.mooc.fi">TMC:hen</a></li>
-<li><em>Javan</em> ja <em>NetBeans with TMC</em>:n lataaminen ja asentaminen</li>
-</ul>
 
-<h2 id="orientaatio-mitä-löytyy-mistäkin">Orientaatio: mitä löytyy mistäkin</h2>
 
-<ul>
-<li>Linkkejä:
 
-<ul>
-<li><a href="https://materiaalit.github.io/ohjelmointi-18/">https://materiaalit.github.io/ohjelmointi-18/</a></li>
-<li><a href="https://tmc.mooc.fi/org/kanglu/courses/498">https://tmc.mooc.fi/org/kanglu/courses/498</a></li>
-</ul></li>
-</ul>
 
-<h2 id="asennus">Asennus</h2>
+<div class="book-tabs">
 
-<ul>
-<li>ks. ohjeet: <a href="https://materiaalit.github.io/tmc-asennus/netbeans_for_windows/">https://materiaalit.github.io/tmc-asennus/netbeans_for_windows/</a><br /></li>
-</ul>
+  <input type="radio" name="tabs-tabs1" style="display: none;" id="tabs-tabs1-0" checked="checked" />
+  <label for="tabs-tabs1-0">
+    Windows
+  </label>
+  <div class="book-tabs-content markdown-inner">
+    <h2 id="1-lataa-ja-asenna-java">1. Lataa ja asenna Java</h2>
+
+<p>Jos epäilet, että koneestasi löytyy jo ennestään Java, tarkista asia tämän sivun kohdasta <a href="#onko-koneessani-jo-ennestään-oikea-java-versio">Onko koneessani jo ennestään oikea Java-versio?</a></p>
+
+<p>Lataa uusin Java 8:n kehitysympäristö (Java SE Development Kit 8u221) osoitteesta <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a>.</p>
+
+<p>Todennäköisesti käytössäsi on 64-bittinen Windows-käyttöjärjestelmä, eli lataa tiedosto <code>jdk-8u221-windows-x64.exe</code>. Kun olet ladannut tiedoston, asenna se koneellesi.</p>
 
 <h3 id="täydennys-ohjeisiin">Täydennys ohjeisiin</h3>
 
-<ul>
-<li><p>Javan lataaminen vaatii kirjautumisen Oraclen tilille. Käytä <a href="http://bugmenot.com/view/oracle.com">netistä kaivettuja</a>, toimivia tunnuksia (toimi ainakin 12. ja 13.8.2019):</p>
+<p>Javan lataaminen vaatii kirjautumisen Oraclen tilille. Käytä <a href="http://bugmenot.com/view/oracle.com">netistä kaivettuja</a>, toimivia tunnuksia (ne toimivat ainakin 12.–14.8.2019):</p>
 
 <ul>
 <li><em>käyttäjätunnus</em>: nicabeta@email-wizard.com</li>
 <li><em>salasana</em>: MQEemoh3pOsRAn2c4tjh</li>
-</ul></li>
 </ul>
 
-<h3 id="onko-koneessani-jo-ennestään-javan-oikea-versio">Onko koneessani jo ennestään Javan oikea versio?</h3>
+<p>Jos sinulla on muita versioita Javasta asennettuna ne, saattavat estää ohjelmointiympäristöä toimimasta oikein. Tässä tilanteessa suosittelemme poistamaan muut Javan versiot. Erityisesti Javan versiot 9, 10 ja 11 ovat ongelmallisia.</p>
+
+<h2 id="2-lataa-ja-asenna-netbeans">2. Lataa ja asenna NetBeans</h2>
+
+<p>Lataa tiedosto <a href="http://update.testmycode.net/installers/tmc-netbeans_org_mooc/tmc-netbeans_org_mooc_tmcbeans-windows.exe">http://update.testmycode.net/installers/tmc-netbeans_org_mooc/tmc-netbeans_org_mooc_tmcbeans-windows.exe</a>. Kun tiedoston lataaminen on valmis, asenna sovellus koneellesi.</p>
+
+<p><span style="color:grey">Asennusohjeen lähde: <code>https://materiaalit.github.io/tmc-asennus/netbeans_for_windows/</code>. Oikoluku: Arttu Ylhävuori</span></p>
+
+  </div>
+
+  <input type="radio" name="tabs-tabs1" style="display: none;" id="tabs-tabs1-1"  />
+  <label for="tabs-tabs1-1">
+    macOS
+  </label>
+  <div class="book-tabs-content markdown-inner">
+    <h2 id="1-lataa-ja-asenna-java">1. Lataa ja asenna Java</h2>
+
+<p>Jos epäilet, että koneestasi löytyy jo ennestään Java, tarkista asia tämän sivun kohdasta <a href="#onko-koneessani-jo-ennestään-oikea-java-versio">Onko koneessani jo ennestään oikea Java-versio?</a></p>
+
+<p>Lataa uusin Java 8:n kehitysympäristö (Java SE Development Kit 8u221) osoitteesta <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a>.</p>
+
+<p>Lataa tiedosto <code>jdk-8u221-macosx-x64.dmg</code>. Kun olet ladannut tiedoston, asenna se koneellesi.</p>
+
+<h3 id="täydennys-ohjeisiin">Täydennys ohjeisiin</h3>
+
+<p>Javan lataaminen vaatii kirjautumisen Oraclen tilille. Käytä <a href="http://bugmenot.com/view/oracle.com">netistä kaivettuja</a>, toimivia tunnuksia (ne toimivat ainakin 12.–14.8.2019):</p>
+
+<ul>
+<li><em>käyttäjätunnus</em>: nicabeta@email-wizard.com</li>
+<li><em>salasana</em>: MQEemoh3pOsRAn2c4tjh</li>
+</ul>
+
+<p>Jos sinulla on muita versioita Javasta asennettuna ne, saattavat estää ohjelmointiympäristä toimimasta oikein. Tässä tilanteessa suosittelemme poistamaan muut Javan versiot. Erityisesti Javan versiot 9, 10 ja 11 ovat ongelmallisia.</p>
+
+<h2 id="2-lataa-ja-asenna-netbeans">2. Lataa ja asenna NetBeans</h2>
+
+<p>Lataa tiedosto <a href="http://update.testmycode.net/installers/tmc-netbeans_org_mooc/tmc-netbeans_org_mooc_tmcbeans-macosx.tgz">http://update.testmycode.net/installers/tmc-netbeans_org_mooc/tmc-netbeans_org_mooc_tmcbeans-macosx.tgz</a>. Kun tiedoston lataaminen on valmis, asenna sovellus koneellesi.</p>
+
+<p>Jos ladattu asennusohjelma ei meinaa aueta, koita avata se painamalla sitä hiiren oikealla näppäimellä ja valitsemalla Avaa/Open.</p>
+
+<p><span style="color:grey">Asennusohjeen lähde: <code>https://materiaalit.github.io/tmc-asennus/netbeans_for_macos/</code>. Oikoluku: Arttu Ylhävuori</span></p>
+
+  </div>
+
+  <input type="radio" name="tabs-tabs1" style="display: none;" id="tabs-tabs1-2"  />
+  <label for="tabs-tabs1-2">
+    Linux
+  </label>
+  <div class="book-tabs-content markdown-inner">
+    <h2 id="1-lataa-ja-asenna-java">1. Lataa ja asenna Java</h2>
+
+<p>Jos epäilet, että koneestasi löytyy jo ennestään Java, tarkista asia tämän sivun kohdasta <a href="#onko-koneessani-jo-ennestään-oikea-java-versio">Onko koneessani jo ennestään oikea Java-versio?</a></p>
+
+<p>Suosittelemme asentamaan Linuxissa OpenJDK-paketin. Esimerkiksi Ubuntussa sen voi tehdä komentoriviltä seuraavalla komennolla:</p>
+
+<pre><code>sudo apt-get install openjdk-8-jdk
+</code></pre>
+
+<p>Jos sinulla on muita versioita Javasta asennettuna ne, saattavat estää ohjelmointiympäristä toimimasta oikein. Tässä tilanteessa suosittelemme poistamaan muut Javan versiot. Erityisesti Javan versiot 9, 10 ja 11 ovat ongelmallisia.</p>
+
+<p>Vaihda Javan aktiivinen versio komennolla:</p>
+
+<pre><code>sudo update-alternatives --config java
+</code></pre>
+
+<p>Kirjoita komennolle sen vaihtoehdon numero, jossa lukee Java 8 (esim kirjoittajan koneella &ldquo;/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java&rdquo;), ja paina Enter.</p>
+
+<p>Asenna tämän jälkeen vielä OpenJFX, jota käytetään käyttöliittymien tekemiseen ja käsittelyyn. Tämän asentaminen onnistuu Ubuntussa (komentoriviltä) komennolla:</p>
+
+<pre><code>sudo apt-get install openjfx
+</code></pre>
+
+<h2 id="2-lataa-ja-asenna-netbeans">2. Lataa ja asenna NetBeans</h2>
+
+<p>Lataa tiedosto <a href="http://update.testmycode.net/installers/tmc-netbeans_org_mooc/tmc-netbeans_org_mooc_tmcbeans-linux.sh">http://update.testmycode.net/installers/tmc-netbeans_org_mooc/tmc-netbeans_org_mooc_tmcbeans-linux.sh</a>. Kun tiedoston lataaminen on valmis, tuplaklikkaa tiedostoa. Jos tämä ei toimi, mene Terminaalissa kansioon, johon olet ladannut tiedoston ja aja komento:</p>
+
+<pre><code>chmod +x tmc-netbeans_org_mooc_tmcbeans-linux.sh &amp;&amp; ./tmc-netbeans_org_mooc_tmcbeans-linux.sh
+</code></pre>
+
+<p>Tämän jälkeen seuraa ruudulle tulevia ohjeita.</p>
+
+<p><span style="color:grey">Asennusohjeen lähde: <code>https://materiaalit.github.io/tmc-asennus/netbeans_for_linux/</code>. Oikoluku: Arttu Ylhävuori</span></p>
+
+  </div>
+
+</div>
+
+
+<h2 id="3-luo-tunnukset-tmc-hen">3. Luo tunnukset TMC:hen</h2>
+
+<p>TMC (<em>TestMyCode – Programming assignment evaluator</em>) -palvelin löytyy osoitteesta <a href="https://tmc.mooc.fi">https://tmc.mooc.fi</a>. TMC-tunnus luodaan, jotta voimme pitää kirjaa tekemistäsi tehtävistä.</p>
+
+<ol>
+<li><p>Klikkaa <em>Sign up</em> -linkkiä oikeasta yläkulmasta tai mene suoraan osoitteeseen <a href="https://tmc.mooc.fi/user/new">https://tmc.mooc.fi/user/new</a></p></li>
+
+<li><p><em>Organizational identifier (e.g. student number)</em> -kenttää ei tarvitse täyttää, se on vain Helsingin yliopiston opiskelijoille</p></li>
+</ol>
+
+<h2 id="4-avaa-netbeans-ja-kirjaudu-sisään-ohjelmointiympäristöön">4. Avaa NetBeans ja kirjaudu sisään ohjelmointiympäristöön</h2>
+
+<ul>
+<li>Käynnistä asentamasi NetBeans-ohjelmointiympäristö</li>
+<li>Kun ohjelmointiympäristö käynnistyy, se kysyy sinulta sähköpostiosoitetta ja salasanaasi</li>
+<li>Aseta sähköpostiosoitteeksi ja salasanaksi edellisessä kohdassa luomasi TMC-tunnukset</li>
+</ul>
+
+<h1 id="onko-koneessani-jo-ennestään-oikea-java-versio">Onko koneessani jo ennestään oikea Java-versio?</h1>
 
 <p>Voit kirjoittaa tietokoneesi komentoriville / päätteeseen / Terminaaliin seuraavat rivit:</p>
 
 <pre><code>java -version
-javac -version
 </code></pre>
 
-<p>Jos vastauksena on allaoleva, on kaikki kunnossa:</p>
+<p>ja</p>
+
+<pre><code>javac -version
+</code></pre>
+
+<p>Jos vastauksena ovat allaolevan tapaiset tulosteet, on kaikki kunnossa (riittää, että versionumeron alku on <code>1.8.0_[jotakin]</code>):</p>
 
 <p><strong>java -version:</strong></p>
 
@@ -206,6 +311,8 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.221-b11, mixed mode)
 
 <pre><code>javac 1.8.0_221
 </code></pre>
+
+<p>Kuten jo aiemmin mainittu, tämän sivun lähteenä on: <a href="https://materiaalit.github.io/tmc-asennus/netbeans_for_windows/">https://materiaalit.github.io/tmc-asennus/netbeans_for_windows/</a></p>
 </article>
 
       
@@ -221,14 +328,10 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.221-b11, mixed mode)
 <ul>
 <li><a href="#aloitus-ja-asennus">Aloitus ja asennus</a>
 <ul>
-<li><a href="#käyttöönotto">Käyttöönotto</a></li>
-<li><a href="#orientaatio-mitä-löytyy-mistäkin">Orientaatio: mitä löytyy mistäkin</a></li>
-<li><a href="#asennus">Asennus</a>
-<ul>
-<li><a href="#täydennys-ohjeisiin">Täydennys ohjeisiin</a></li>
-<li><a href="#onko-koneessani-jo-ennestään-javan-oikea-versio">Onko koneessani jo ennestään Javan oikea versio?</a></li>
+<li><a href="#3-luo-tunnukset-tmc-hen">3. Luo tunnukset TMC:hen</a></li>
+<li><a href="#4-avaa-netbeans-ja-kirjaudu-sisään-ohjelmointiympäristöön">4. Avaa NetBeans ja kirjaudu sisään ohjelmointiympäristöön</a></li>
 </ul></li>
-</ul></li>
+<li><a href="#onko-koneessani-jo-ennestään-oikea-java-versio">Onko koneessani jo ennestään oikea Java-versio?</a></li>
 </ul>
 </nav>
   </aside>

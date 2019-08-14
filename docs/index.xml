@@ -16,9 +16,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kangluk.github.io/docs/asennus/</guid>
-      <description>Aloitus ja asennus Käyttöönotto  Tunnusten luominen TMC:hen Javan ja NetBeans with TMC:n lataaminen ja asentaminen  Orientaatio: mitä löytyy mistäkin  Linkkejä:  https://materiaalit.github.io/ohjelmointi-18/ https://tmc.mooc.fi/org/kanglu/courses/498   Asennus  ks. ohjeet: https://materiaalit.github.io/tmc-asennus/netbeans_for_windows/
-  Täydennys ohjeisiin  Javan lataaminen vaatii kirjautumisen Oraclen tilille. Käytä netistä kaivettuja, toimivia tunnuksia (toimi ainakin 12. ja 13.8.2019):
- käyttäjätunnus: nicabeta@email-wizard.com salasana: MQEemoh3pOsRAn2c4tjh   Onko koneessani jo ennestään Javan oikea versio? Voit kirjoittaa tietokoneesi komentoriville / päätteeseen / Terminaaliin seuraavat rivit:</description>
+      <description>Aloitus ja asennus Kurssin alkuun pitää asentaa omalle tietokoneelle kaksi ohjelmaa ja luoda yhdet käyttäjätunnukset tehtävien tekoa ja palautusta varten. Voit noudattaa asennusohjeita allaolevassa järjestyksessä:
+Windows  1. Lataa ja asenna Java Jos epäilet, että koneestasi löytyy jo ennestään Java, tarkista asia tämän sivun kohdasta Onko koneessani jo ennestään oikea Java-versio?
+Lataa uusin Java 8:n kehitysympäristö (Java SE Development Kit 8u221) osoitteesta http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
+Todennäköisesti käytössäsi on 64-bittinen Windows-käyttöjärjestelmä, eli lataa tiedosto jdk-8u221-windows-x64.</description>
     </item>
     
   </channel>
