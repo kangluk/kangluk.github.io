@@ -86,8 +86,18 @@ Todennäköisesti käytössäsi on 64-bittinen Windows-käyttöjärjestelmä, el
       
       <guid>https://kangluk.github.io/docs/suoritus/viikko1/</guid>
       <description>Viikko 1 (13.–18.8.2019) Viikon 1 teoria ja tehtävät Siirry materiaaliin  Viikon 1 osaamistavoitteet Osaat kirjoittaa ohjelmia, jotka lukevat käyttäjältä syötettä ja tekevät laskentaa syötteen perusteella. Tunnet käsitteet muuttuja, ehtolause ja toistolause, ja osaat käyttää näitä ohjelmissasi.
-Artun tukidiat viikolle 1 Voit halutessasi ladata ja/tai tulostaa Artun tekemät tukidiat kullekin kurssin suoritusviikolle. Diat ovat saatavilla PDF-muotoisina Google Drivessa:
-Siirry dioihin  Osaamistavoitteiden lähde: https://ohjelmointi-19.mooc.fi/osaamistavoitteet (Creative Commons BY-NC-SA 4.0 -lisenssi, Helsingin yliopiston Agile Education Research -tutkimusryhmä, ks.</description>
+Artun tukidiat viikolle 1 Voit halutessasi lukea, ladata ja/tai tulostaa Artun tekemät tukidiat kullekin kurssin suoritusviikolle. Dioihin on pyritty koostamaan oleellisimmat opittavat asiat kyseiseltä viikolta. Diat ovat saatavilla PDF-muotoisina Google Drivessa:
+Siirry dioihin  Osaamistavoitteiden lähde: https://ohjelmointi-19.</description>
+    </item>
+    
+    <item>
+      <title>Viikko 2</title>
+      <link>https://kangluk.github.io/docs/suoritus/viikko2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/suoritus/viikko2/</guid>
+      <description>Viikko 2 (19.–25.8.2019) Viikon 2 teoria ja tehtävät Siirry materiaaliin  Viikon 2 osaamistavoitteet Tunnet muutamia osaongelmia sekä niihin liittyviä ratkaisumalleja. Tunnet loogiset operaatiot ja, tai ja ei ja osaat käyttää niitä ehto- ja toistolauseissa. Tunnet käsitteet metodi, metodin parametri, metodin palautusarvo ja ohjelman kutsupino. Osaat luoda metodeja ja ymmärrät miten ohjelman suoritus etenee kun metodia kutsutaan ja toisaalta kun metodikutsusta palataan.
+Artun tukidiat viikolle 2 Voit halutessasi lukea, ladata ja/tai tulostaa Artun tekemät tukidiat kullekin kurssin suoritusviikolle.</description>
     </item>
     
   </channel>
