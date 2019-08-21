@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://kangluk.github.io/en/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://kangluk.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kangluk.github.io/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kangluk.github.io/en/docs/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://kangluk.github.io/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kangluk.github.io/en/docs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kangluk.github.io/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://kangluk.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kangluk.github.io/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kangluk.github.io/en/docs/asennus/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://kangluk.github.io/docs/asennus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kangluk.github.io/en/docs/asennus/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://kangluk.github.io/en/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://kangluk.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kangluk.github.io/en/tags/"
+                />
+  </url>
+  
+</urlset>

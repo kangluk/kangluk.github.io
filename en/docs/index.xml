@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Java programming course in Kangasala, autumn 2019</title>
+    <link>https://kangluk.github.io/en/docs/</link>
+    <description>Recent content in Docs on Java programming course in Kangasala, autumn 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi</language>
+    <copyright>Arttu Ylhävuori</copyright>
+    
+	<atom:link href="https://kangluk.github.io/en/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Start and the installation</title>
+      <link>https://kangluk.github.io/en/docs/asennus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/en/docs/asennus/</guid>
+      <description>Start and the installation Kurssin alkuun pitää asentaa omalle tietokoneelle kaksi ohjelmaa ja luoda yhdet käyttäjätunnukset tehtävien tekoa ja palautusta varten. Voit noudattaa asennusohjeita allaolevassa järjestyksessä:
+Windows  1. Lataa ja asenna Java Jos epäilet, että koneestasi löytyy jo ennestään Java, tarkista asia tämän sivun kohdasta Onko koneessani jo ennestään oikea Java-versio?
+Lataa uusin Java 8:n kehitysympäristö (Java SE Development Kit 8u221) osoitteesta http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
+Todennäköisesti käytössäsi on 64-bittinen Windows-käyttöjärjestelmä, eli lataa tiedosto jdk-8u221-windows-x64.</description>
+    </item>
+    
+  </channel>
+</rss>
