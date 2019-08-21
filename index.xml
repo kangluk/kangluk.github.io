@@ -80,6 +80,15 @@ Todennäköisesti käytössäsi on 64-bittinen Windows-käyttöjärjestelmä, el
     </item>
     
     <item>
+      <title>Pikanäppäimiä</title>
+      <link>https://kangluk.github.io/docs/pikakomentoja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/pikakomentoja/</guid>
+      <description>NetBeansin pikanäppäimiä Yleiset pikanäppäimet    Pikanäppäin / -komento Lopputulos     Kirjoita sout ja paina tabulaattoria (↹) System.out.println(&amp;ldquo;&amp;rdquo;);   Siirry jollekin koodiriville ja paina samaan aikaan Alt, Shift (⇧) ja alas-nuolinäppäin (toimii myös ylös-nuolinäppäimellä) Rivi kopioituu ala- tai yläpuolelle riippuen käytetystä nuolinäppäimestä   Paina samaan aikaan Alt, Shift (⇧) ja F Siistii koodin: asettelee sisennykset ja välilyönnit kuntoon (engl. format selection)   Paina samaan aikaan Ctrl ja välilyönti Aukeaa ikkuna, joka tarjoaa juuri siihen hetkeen sopivia komentoja.</description>
+    </item>
+    
+    <item>
       <title>Viikko 1</title>
       <link>https://kangluk.github.io/docs/suoritus/viikko1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
