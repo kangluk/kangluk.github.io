@@ -13,14 +13,12 @@
     
     <item>
       <title>Start and the installation</title>
-      <link>https://kangluk.github.io/en/docs/asennus/</link>
+      <link>https://kangluk.github.io/en/docs/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kangluk.github.io/en/docs/asennus/</guid>
-      <description>Start and the installation Kurssin alkuun pitää asentaa omalle tietokoneelle kaksi ohjelmaa ja luoda yhdet käyttäjätunnukset tehtävien tekoa ja palautusta varten. Voit noudattaa asennusohjeita allaolevassa järjestyksessä:
-Windows  1. Lataa ja asenna Java Jos epäilet, että koneestasi löytyy jo ennestään Java, tarkista asia tämän sivun kohdasta Onko koneessani jo ennestään oikea Java-versio?
-Lataa uusin Java 8:n kehitysympäristö (Java SE Development Kit 8u221) osoitteesta http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
-Todennäköisesti käytössäsi on 64-bittinen Windows-käyttöjärjestelmä, eli lataa tiedosto jdk-8u221-windows-x64.</description>
+      <guid>https://kangluk.github.io/en/docs/installation/</guid>
+      <description> Start and the installation At the beginning of the course you will need to install two programs on your own computer and create a single user account to complete the tasks and return them. You can follow these installation instructions:
+Go to the installation instructions  </description>
     </item>
     
   </channel>
