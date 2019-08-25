@@ -32,5 +32,15 @@ Siirry dioihin  Osaamistavoitteiden lähde: https://ohjelmointi-19.</description
 Vinkkilista  Tehtävä 2.1: saat korotettua luvun toiseen potenssiin komennolla Math.</description>
     </item>
     
+    <item>
+      <title>Viikko 3</title>
+      <link>https://kangluk.github.io/docs/suoritus/viikko3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/suoritus/viikko3/</guid>
+      <description>Viikko 3 (26.8.–1.9.2019) Viikon 3 teoria ja tehtävät Siirry materiaaliin  Viikon 3 osaamistavoitteet Tiedät lähdekoodin kommentointitapoja ja ymmärrät miten muuttujien ja metodien nimentä vaikuttaa ohjelman ymmärrettävyyteen. Tunnet lista- ja taulukkorakenteen ja osaat käyttää niitä osana ohjelmia. Osaat käydä listan ja taulukon läpi while-toistolausetta ja indeksimuuttujaa käyttäen sekä for-each -toistolausetta käyttäen. Tunnet merkkijonoon liittyviä metodeja ja osaat pilkkoa merkkijonon pienempiin osiin. Harjoittelet ohjelmien testaamista syötteitä ja tulosteita vertailemalla.
+Artun tukidiat viikolle 3 Voit halutessasi lukea, ladata ja/tai tulostaa Artun tekemät tukidiat kullekin kurssin suoritusviikolle.</description>
+    </item>
+    
   </channel>
 </rss>

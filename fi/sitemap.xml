@@ -94,13 +94,13 @@
   </url>
   
   <url>
-    <loc>https://kangluk.github.io/tags/golang/</loc>
+    <loc>https://kangluk.github.io/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kangluk.github.io/categories/golang/</loc>
+    <loc>https://kangluk.github.io/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -170,6 +170,10 @@
   
   <url>
     <loc>https://kangluk.github.io/docs/suoritus/viikko2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kangluk.github.io/docs/suoritus/viikko3/</loc>
   </url>
   
 </urlset>
