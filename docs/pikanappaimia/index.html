@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/book.min.6c7317d2e8552a0ac3ea8fd4ba500c3dfb1cc9c74e7afd73eee6d729751fad30.css">
 
 
-<script defer src="/search.min.89685f5f8d01e073ea65e03af23e7ebf66f035b134df393c00b0862f9b2e75bb.js"></script>
+<script defer src="/search.min.0fde41d96f4b272e9f94460d90569538ef8a94b53e83fa83cc661db75c90a957.js"></script>
 
 
 
@@ -306,6 +306,81 @@ https://github.com/alex-shpak/hugo-book
 </div>
 
 
+<h3 id="luku-jota-pienennetään-toisella-luvulla">Luku, jota pienennetään toisella luvulla</h3>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <p><!-- begin columns block --></p>
+
+<p><strong>Lyhyempi esitystapa:</strong></p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#00a8c8">int</span> <span style="color:#75af00">luku1</span> <span style="color:#f92672">=</span> <span style="color:#111">15</span><span style="color:#111">;</span>
+<span style="color:#00a8c8">int</span> <span style="color:#75af00">luku2</span> <span style="color:#f92672">=</span> <span style="color:#111">5</span><span style="color:#111">;</span>
+<span style="color:#111">luku1</span> <span style="color:#f92672">-=</span> <span style="color:#111">luku2</span><span style="color:#111">;</span></code></pre></div>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <p><!-- magic sparator, between columns --></p>
+
+<p><strong>Pitempi esitystapa:</strong></p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#00a8c8">int</span> <span style="color:#75af00">luku1</span> <span style="color:#f92672">=</span> <span style="color:#111">15</span><span style="color:#111">;</span>
+<span style="color:#00a8c8">int</span> <span style="color:#75af00">luku2</span> <span style="color:#f92672">=</span> <span style="color:#111">5</span><span style="color:#111">;</span>
+<span style="color:#111">luku1</span> <span style="color:#f92672">=</span> <span style="color:#111">luku1</span> <span style="color:#f92672">-</span> <span style="color:#111">luku2</span><span style="color:#111">;</span></code></pre></div>
+  </div>
+  
+</div>
+
+
+<h2 id="toistolauseita-listan-läpikäyntiin">Toistolauseita listan läpikäyntiin</h2>
+
+<p>Seuraavissa esimerkeissä käydään samansisältöinen nimilista eri toistolauseilla läpi. Kuten huomaat, while-toistolause on kaikkein työläin tapa listan läpikäymiseen, koska koodirivejä menee siinä eniten saman asian suorittamiseen.</p>
+
+<h3 id="while-toistolause">While-toistolause</h3>
+
+<p>While-toistolauseen ehdoista on selitetty tarkemmin osan 2 materiaalissa kohdassa <a href="https://ohjelmointi-19.mooc.fi/osa-2/2-loogiset-operaatiot#heading-toistolauseen-ehto">Toistolauseen ehto</a>.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// luodaan nimilista, johon lisätään neljä nimeä:
+</span><span style="color:#75715e"></span><span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;</span><span style="color:#111">String</span><span style="color:#f92672">&gt;</span> <span style="color:#75af00">nimilista</span> <span style="color:#f92672">=</span> <span style="color:#00a8c8">new</span> <span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;&gt;</span><span style="color:#111">();</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Miisa&#34;</span><span style="color:#111">);</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Teemu&#34;</span><span style="color:#111">);</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Neea&#34;</span><span style="color:#111">);</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Niko&#34;</span><span style="color:#111">);</span>
+
+<span style="color:#75715e">// indeksi-apumuuttuja while-toistolauseeseen:
+</span><span style="color:#75715e"></span><span style="color:#00a8c8">int</span> <span style="color:#75af00">indeksi</span> <span style="color:#f92672">=</span> <span style="color:#111">0</span><span style="color:#111">;</span>
+
+<span style="color:#75715e">// nimilistan läpikäynti ja tulostaminen while-toistolauseella:
+</span><span style="color:#75715e"></span><span style="color:#00a8c8">while</span> <span style="color:#111">(</span><span style="color:#111">indeksi</span> <span style="color:#f92672">&lt;</span> <span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">size</span><span style="color:#111">())</span> <span style="color:#111">{</span>
+	<span style="color:#111">String</span> <span style="color:#75af00">nimi</span> <span style="color:#f92672">=</span> <span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">get</span><span style="color:#111">(</span><span style="color:#111">indeksi</span><span style="color:#111">);</span>
+	<span style="color:#111">System</span><span style="color:#111">.</span><span style="color:#75af00">out</span><span style="color:#111">.</span><span style="color:#75af00">println</span><span style="color:#111">(</span><span style="color:#111">nimi</span><span style="color:#111">);</span>
+	<span style="color:#111">indeksi</span><span style="color:#f92672">++</span><span style="color:#111">;</span>
+<span style="color:#111">}</span></code></pre></div>
+<h3 id="for-each-toistolause">For-each -toistolause</h3>
+
+<p>For-each on selitetty tarkemmin osan 3 materiaalissa kohdassa <a href="https://ohjelmointi-19.mooc.fi/osa-3/2-listat#heading-listan-lapikaynti-for-each-toistolauseella">Listan läpikäynti for-each -toistolauseella</a>.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// luodaan nimilista, johon lisätään neljä nimeä:
+</span><span style="color:#75715e"></span><span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;</span><span style="color:#111">String</span><span style="color:#f92672">&gt;</span> <span style="color:#75af00">nimilista</span> <span style="color:#f92672">=</span> <span style="color:#00a8c8">new</span> <span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;&gt;</span><span style="color:#111">();</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Miisa&#34;</span><span style="color:#111">);</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Teemu&#34;</span><span style="color:#111">);</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Neea&#34;</span><span style="color:#111">);</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Niko&#34;</span><span style="color:#111">);</span>
+
+<span style="color:#75715e">// nimilistan läpikäynti ja tulostaminen for-each -toistolauseella:
+</span><span style="color:#75715e"></span><span style="color:#00a8c8">for</span> <span style="color:#111">(</span><span style="color:#111">String</span> <span style="color:#75af00">nimi</span> <span style="color:#f92672">:</span> <span style="color:#111">nimilista</span><span style="color:#111">)</span> <span style="color:#111">{</span>
+	<span style="color:#111">System</span><span style="color:#111">.</span><span style="color:#75af00">out</span><span style="color:#111">.</span><span style="color:#75af00">println</span><span style="color:#111">(</span><span style="color:#111">nimi</span><span style="color:#111">);</span>
+<span style="color:#111">}</span></code></pre></div>
+<h3 id="for-toistolause">For-toistolause</h3>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// luodaan nimilista, johon lisätään neljä nimeä:
+</span><span style="color:#75715e"></span><span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;</span><span style="color:#111">String</span><span style="color:#f92672">&gt;</span> <span style="color:#75af00">nimilista</span> <span style="color:#f92672">=</span> <span style="color:#00a8c8">new</span> <span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;&gt;</span><span style="color:#111">();</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Miisa&#34;</span><span style="color:#111">);</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Teemu&#34;</span><span style="color:#111">);</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Neea&#34;</span><span style="color:#111">);</span>
+<span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Niko&#34;</span><span style="color:#111">);</span>
+
+<span style="color:#75715e">// nimilistan läpikäynti ja tulostaminen for-toistolauseella:
+</span><span style="color:#75715e"></span><span style="color:#00a8c8">for</span> <span style="color:#111">(</span><span style="color:#00a8c8">int</span> <span style="color:#75af00">indeksi</span> <span style="color:#f92672">=</span> <span style="color:#111">0</span><span style="color:#111">;</span> <span style="color:#111">indeksi</span> <span style="color:#f92672">&lt;</span> <span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">size</span><span style="color:#111">();</span> <span style="color:#111">indeksi</span><span style="color:#f92672">++</span><span style="color:#111">)</span> <span style="color:#111">{</span>
+	<span style="color:#111">String</span> <span style="color:#75af00">nimi</span> <span style="color:#f92672">=</span> <span style="color:#111">nimilista</span><span style="color:#111">.</span><span style="color:#75af00">get</span><span style="color:#111">(</span><span style="color:#111">indeksi</span><span style="color:#111">);</span>
+	<span style="color:#111">System</span><span style="color:#111">.</span><span style="color:#75af00">out</span><span style="color:#111">.</span><span style="color:#75af00">println</span><span style="color:#111">(</span><span style="color:#111">nimi</span><span style="color:#111">);</span>
+<span style="color:#111">}</span></code></pre></div>
 <hr />
 
 <p>Tämä sivu täydentyy kurssin edetessä. Kertokaa, jos jokin pikanäppäin ei toimi (Macissa näppäimet eivät kaikilta osin täsmää Windowsin kanssa).</p>
@@ -332,6 +407,13 @@ https://github.com/alex-shpak/hugo-book
 <li><a href="#laskuri-jota-kasvatetaan-yhdellä">Laskuri, jota kasvatetaan yhdellä</a></li>
 <li><a href="#laskuri-jota-pienennetään-yhdellä">Laskuri, jota pienennetään yhdellä</a></li>
 <li><a href="#luku-jota-kasvatetaan-toisella-luvulla">Luku, jota kasvatetaan toisella luvulla</a></li>
+<li><a href="#luku-jota-pienennetään-toisella-luvulla">Luku, jota pienennetään toisella luvulla</a></li>
+</ul></li>
+<li><a href="#toistolauseita-listan-läpikäyntiin">Toistolauseita listan läpikäyntiin</a>
+<ul>
+<li><a href="#while-toistolause">While-toistolause</a></li>
+<li><a href="#for-each-toistolause">For-each -toistolause</a></li>
+<li><a href="#for-toistolause">For-toistolause</a></li>
 </ul></li>
 </ul></li>
 </ul>
