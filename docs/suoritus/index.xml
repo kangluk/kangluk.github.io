@@ -52,5 +52,15 @@ Artun tukidiat viikolle 3 Voit halutessasi lukea, ladata ja/tai tulostaa Artun t
 Artun tukidiat viikolle 4 Voit halutessasi lukea, ladata ja/tai tulostaa Artun tekemät tukidiat kullekin kurssin suoritusviikolle. Dioihin on pyritty koostamaan oleellisimmat opittavat asiat kyseiseltä viikolta.</description>
     </item>
     
+    <item>
+      <title>Viikko 5</title>
+      <link>https://kangluk.github.io/docs/suoritus/viikko5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/suoritus/viikko5/</guid>
+      <description>Viikko 5 (9.–15.9.2019) Viikon 5 teoria ja tehtävät Siirry materiaaliin  Viikon 5 osaamistavoitteet Tiedät mitä alkeis- ja viittaustyyppiset muuttujat ovat ja ymmärrät miten niiden toiminta eroaa toisistaan (muuttujan arvon asetus, metodin parametrina käyttö). Osaat luoda luokkaan useita konstruktoreja sekä useita samannimisiä metodeja. Osaat vertailla olioiden samankaltaisuutta sekä määritellä samankaltaisuuden vertailuun käytettävän metodin. Osaat määritellä luokkaan viittaustyyppisiä oliomuuttujia, käyttää olioita metodin paluuarvona, sekä käyttää listoja oliomuuttujina.
+Artun tukidiat viikolle 5 Voit halutessasi lukea, ladata ja/tai tulostaa Artun tekemät tukidiat kullekin kurssin suoritusviikolle.</description>
+    </item>
+    
   </channel>
 </rss>
