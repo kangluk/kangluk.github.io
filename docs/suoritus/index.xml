@@ -62,5 +62,15 @@ Artun tukidiat viikolle 4 Voit halutessasi lukea, ladata ja/tai tulostaa Artun t
 Artun tukidiat viikolle 5 Voit halutessasi lukea, ladata ja/tai tulostaa Artun tekemät tukidiat kullekin kurssin suoritusviikolle.</description>
     </item>
     
+    <item>
+      <title>Viikko 6</title>
+      <link>https://kangluk.github.io/docs/suoritus/viikko6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/suoritus/viikko6/</guid>
+      <description>Viikko 6 (16.–22.9.2019) Viikon 6 teoria ja tehtävät Siirry materiaaliin  Viikon 6 osaamistavoitteet Ymmärrät staattisten ja ei-staattisten metodien erot. Tunnet hajautustaulun ja osaat käsitellä hajautustaulussa olevaa tietoa. Osaat käyttää olioita hajautustaulun arvona ja tiedät miten oliot toimivat hajautustaulun avaimena. Osaat ryhmitellä tietoa hajautustaulun avulla ja osaat käyttää listaa hajautustaulun arvona. Osaat käyttää olioita sekä tiedon esittämiseen että ohjelman jakamiseen useampaan vastuualueeseen (tekstikäyttöliittymä, sovelluslogiikka).
+Artun tukidiat viikolle 6 Voit halutessasi lukea, ladata ja/tai tulostaa Artun tekemät tukidiat kullekin kurssin suoritusviikolle.</description>
+    </item>
+    
   </channel>
 </rss>
