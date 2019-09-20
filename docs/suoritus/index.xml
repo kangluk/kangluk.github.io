@@ -72,5 +72,15 @@ Artun tukidiat viikolle 5 Voit halutessasi lukea, ladata ja/tai tulostaa Artun t
 Artun tukidiat viikolle 6 Voit halutessasi lukea, ladata ja/tai tulostaa Artun tekemät tukidiat kullekin kurssin suoritusviikolle.</description>
     </item>
     
+    <item>
+      <title>Viikko 7</title>
+      <link>https://kangluk.github.io/docs/suoritus/viikko7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/suoritus/viikko7/</guid>
+      <description>Viikko 7 (23.9.–1.10.2019) Viikon 7 teoria ja tehtävät Siirry materiaaliin  Viikon 7 osaamistavoitteet Osaat kertoa proseduraalisen ohjelmoinnin ja olio-ohjelmoinnin eroista ja toteuttaa ohjelmia kumpaakin ohjelmointiparadigmaa noudattaen. Tiedät mitä käsite algoritmi tarkoittaa ja osaat kuvailla muutamien järjestämis- ja hakualgoritmien toimintaa. Osaat kirjoittaa yksikkötestejä ja tiedät testivetoisen ohjelmistokehityksen perusaskeleet.
+Artun tukidiat viikolle 7 Voit halutessasi lukea, ladata ja/tai tulostaa Artun tekemät tukidiat kullekin kurssin suoritusviikolle. Dioihin on pyritty koostamaan oleellisimmat opittavat asiat kyseiseltä viikolta.</description>
+    </item>
+    
   </channel>
 </rss>
