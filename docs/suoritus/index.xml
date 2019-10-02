@@ -82,5 +82,15 @@ Artun tukidiat viikolle 6 Voit halutessasi lukea, ladata ja/tai tulostaa Artun t
 Artun tukidiat viikolle 7 Voit halutessasi lukea, ladata ja/tai tulostaa Artun tekemät tukidiat kullekin kurssin suoritusviikolle. Dioihin on pyritty koostamaan oleellisimmat opittavat asiat kyseiseltä viikolta.</description>
     </item>
     
+    <item>
+      <title>Viikko 8</title>
+      <link>https://kangluk.github.io/docs/suoritus/viikko8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/suoritus/viikko8/</guid>
+      <description>Viikko 8 (2.–8.10.2019) Viikon 8 teoria ja tehtävät Siirry materiaaliin  Viikon 8 osaamistavoitteet Tunnet käsitteet perintä ja rajapinta. Osaat luoda luokkia, jotka periytyvät toisesta luokasta ja osaat luoda luokkia, jotka toteuttavat yhden tai useamman rajapinnan. Tiedät miten abstraktit luokat toimivat. Ymmärrät että olio voidaan esittää kaikkien sen todellisten tyyppien avulla.
+Osaamistavoitteiden lähde: https://ohjelmointi-19.mooc.fi/osaamistavoitteet (Creative Commons BY-NC-SA 4.0 -lisenssi, Helsingin yliopiston Agile Education Research -tutkimusryhmä, ks. https://ohjelmointi-19.mooc.fi/credits)</description>
+    </item>
+    
   </channel>
 </rss>
