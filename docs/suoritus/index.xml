@@ -92,5 +92,15 @@ Artun tukidiat viikolle 7 Voit halutessasi lukea, ladata ja/tai tulostaa Artun t
 Osaamistavoitteiden lähde: https://ohjelmointi-19.mooc.fi/osaamistavoitteet (Creative Commons BY-NC-SA 4.0 -lisenssi, Helsingin yliopiston Agile Education Research -tutkimusryhmä, ks. https://ohjelmointi-19.mooc.fi/credits)</description>
     </item>
     
+    <item>
+      <title>Viikko 9</title>
+      <link>https://kangluk.github.io/docs/suoritus/viikko9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/suoritus/viikko9/</guid>
+      <description>Viikko 9 (9.–22.10.2019) Viikon 9 teoria ja tehtävät Siirry materiaaliin  Viikon 9 osaamistavoitteet Osaat käsitellä tietokokoelmia virran avulla. Osaat rajata virran arvoja (filter) sekä muuntaa virran arvojen tyyppiä (map). Tunnet käsitteen lambda-lauseke. Osaat järjestää olioita Javan valmista Comparable-rajapintaa hyödyntäen. Tunnet käsitteet säännöllinen lauseke, lueteltu tyyppi, ja iteraattori, ja osaat hyödyntää näitä ohjelmissasi.
+Osaamistavoitteiden lähde: https://ohjelmointi-19.mooc.fi/osaamistavoitteet (Creative Commons BY-NC-SA 4.0 -lisenssi, Helsingin yliopiston Agile Education Research -tutkimusryhmä, ks. https://ohjelmointi-19.mooc.fi/credits)</description>
+    </item>
+    
   </channel>
 </rss>
