@@ -200,5 +200,15 @@ Osaamistavoitteiden lähde: https://ohjelmointi-19.mooc.fi/osaamistavoitteet (Cr
 Osaamistavoitteiden lähde: https://ohjelmointi-19.mooc.fi/osaamistavoitteet (Creative Commons BY-NC-SA 4.</description>
     </item>
     
+    <item>
+      <title>Viikko12</title>
+      <link>https://kangluk.github.io/docs/suoritus/viikko12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/suoritus/viikko12/</guid>
+      <description>Viikko 12 (6.–12.11.2019) Viikon 12 teoria ja tehtävät Siirry materiaaliin  Viikon 12 osaamistavoitteet Tutustut graafisten käyttöliittymien ohjelmointiin. Tunnet muutamia käyttöliittymäkomponentteja, käyttöliittymäkomponenttien asettelun mekanismeja, sekä osaat käsitellä käyttöliittymän tapahtumia. Osaat tehdä käyttöliittymiä, jotka sisältävät useamman näkymän.
+Osaamistavoitteiden lähde: https://ohjelmointi-19.mooc.fi/osaamistavoitteet (Creative Commons BY-NC-SA 4.0 -lisenssi, Helsingin yliopiston Agile Education Research -tutkimusryhmä, ks. https://ohjelmointi-19.mooc.fi/credits)</description>
+    </item>
+    
   </channel>
 </rss>
