@@ -230,5 +230,15 @@ Osaamistavoitteiden lähde: https://ohjelmointi-19.mooc.fi/osaamistavoitteet (Cr
 Osaamistavoitteiden lähde: https://ohjelmointi-19.mooc.fi/osaamistavoitteet (Creative Commons BY-NC-SA 4.0 -lisenssi, Helsingin yliopiston Agile Education Research -tutkimusryhmä, ks. https://ohjelmointi-19.mooc.fi/credits)</description>
     </item>
     
+    <item>
+      <title>Ööh, mitä kurssin jälkeen?</title>
+      <link>https://kangluk.github.io/docs/mita_kurssin_jalkeen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/mita_kurssin_jalkeen/</guid>
+      <description>Miten koodaamista kannattaisi jatkaa tästä eteenpäin? Mitä kurssin jälkeen? Tässä vielä kertauksena etätunnilla esitellyt linkit ohjelmointiharrastuksen jatkamiseen:
+ Android-sovellusten ohjelmoinnin alkeet Java-kielellä Android Developerin tutoriaaleilla Pelien koodaamista Unity-pelimoottorilla ja C#-skripteillä  Unityn oma Learn-sivusto ensimmäisen projektin luomisesta edistyneempien pelien ohjelmoimiseen (ekstraa, tätä en esitellyt tunnilla) Unityn oma YouTube-tutoriaali Unity Playgroundin käyttämiseen (ekstraa, tätä en esitellyt tunnilla)  Opi nettisivujen ohjelmoimisen alkeet HTML5-tekniikoilla (HTML, CSS, JavaScript) W3Schools.comissa  Kiitokset vielä kertaalleen kurssille osallistumisesta ja hyvää jatkoa!</description>
+    </item>
+    
   </channel>
 </rss>

@@ -43,5 +43,15 @@ Todennäköisesti käytössäsi on 64-bittinen Windows-käyttöjärjestelmä, el
       <description>NetBeansin pikanäppäimiä ja lyhenteitä Yleiset pikanäppäimet    Pikanäppäin / -komento Lopputulos     Kirjoita sout ja paina tabulaattoria (↹) System.out.println(&amp;ldquo;&amp;rdquo;);   Siirry jollekin koodiriville ja paina samaan aikaan Alt, Shift (⇧) ja alas-nuolinäppäin (toimii myös ylös-nuolinäppäimellä) Rivi kopioituu ala- tai yläpuolelle riippuen käytetystä nuolinäppäimestä   Paina samaan aikaan Alt, Shift (⇧) ja F Siistii koodin: asettelee sisennykset ja välilyönnit kuntoon (engl. format selection)   Paina samaan aikaan Ctrl ja välilyönti Aukeaa ikkuna, joka tarjoaa juuri siihen hetkeen sopivia komentoja.</description>
     </item>
     
+    <item>
+      <title>Ööh, mitä kurssin jälkeen?</title>
+      <link>https://kangluk.github.io/docs/mita_kurssin_jalkeen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangluk.github.io/docs/mita_kurssin_jalkeen/</guid>
+      <description>Miten koodaamista kannattaisi jatkaa tästä eteenpäin? Mitä kurssin jälkeen? Tässä vielä kertauksena etätunnilla esitellyt linkit ohjelmointiharrastuksen jatkamiseen:
+ Android-sovellusten ohjelmoinnin alkeet Java-kielellä Android Developerin tutoriaaleilla Pelien koodaamista Unity-pelimoottorilla ja C#-skripteillä  Unityn oma Learn-sivusto ensimmäisen projektin luomisesta edistyneempien pelien ohjelmoimiseen (ekstraa, tätä en esitellyt tunnilla) Unityn oma YouTube-tutoriaali Unity Playgroundin käyttämiseen (ekstraa, tätä en esitellyt tunnilla)  Opi nettisivujen ohjelmoimisen alkeet HTML5-tekniikoilla (HTML, CSS, JavaScript) W3Schools.comissa  Kiitokset vielä kertaalleen kurssille osallistumisesta ja hyvää jatkoa!</description>
+    </item>
+    
   </channel>
 </rss>
